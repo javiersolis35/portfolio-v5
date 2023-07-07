@@ -1,0 +1,125 @@
+/* glowing hover card made by: csozi | Website: english.csozi.hu*/
+
+.card {
+  position: relative;
+  width: 190px;
+  height: 200px;
+  background: rgba(9, 2, 7, 0.227);
+  background: linear-gradient(137deg, rgba(255, 0, 179, 0.055) 0%, rgba(6, 226, 226, 0.14) 100%);
+  transition: 0.3s ease;
+  border-radius: 30px;
+  filter: drop-shadow(0px 0px 30px rgba(11, 5, 10, 0.5));
+  bottom: 87rem;
+  left: 15%;
+  padding: 30px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.card::after {
+  content: '';
+  background-color: #18181823;
+  position: absolute;
+  z-index: 1;
+  transition: 0.3s ease;
+  height: 98%;
+  width: 98%;
+  top: 1%;
+  left: 1%;
+  border-radius: 28px;
+}
+
+.card:hover {
+  filter: drop-shadow(0px 0px 30px rgba(38, 209, 209, 0.298));
+}
+
+.titulo_skills{
+  position: relative;
+ bottom: 90rem;
+ left: 43%;
+ color: aliceblue;
+
+}
+
+h3{
+  font-size: 38px;
+}
+
+p{
+  position: relative;
+  left: 3.5%;
+  bottom: 2.7rem;
+  color: aqua;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+/* Estilos específicos para pantallas pequeñas */
+@media (max-width: 576px) {
+  #skills_sect{
+    position: relative;
+    top: 113rem;
+  }
+  p{
+    position: relative;
+    left: 12%;
+  }
+  .sub_titu{
+      position: relative;
+      left: -20%;
+    }
+}
+
+/* Estilos específicos para pantallas medianas*/
+@media (min-width: 576px) and (max-width: 992px) {
+  #skills_sect{
+    position: relative;
+    top: 113rem;
+  }
+  p{
+    position: relative;
+    left: 12%;
+  }
+  .sub_titu{
+    position: relative;
+    left: -20%;
+  }
+}
+
+/* Estilos específicos para pantallas grandes*/
+@media (max-width: 992px) {
+  #skills_sect{
+    position: relative;
+    top: 113rem;
+  }
+  p{
+    position: relative;
+    left: 12%;
+  }
+  .sub_titu{
+    position: relative;
+    left: -20%;
+  }
+} 
+
+#skills_sect{
+  position: relative;
+  bottom: 30rem;
+  
+}
+
+
+
+h4{
+
+  position: relative;
+  left: -30%;
+  width: 70%;
+  text-align: center;
+  font-size: 18px;
+  bottom: 1rem;
+}
+
+span{
+  color: aqua;
+}
+

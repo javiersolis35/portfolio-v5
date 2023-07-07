@@ -1,0 +1,98 @@
+.card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 435px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 32px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #2121214e;
+    border: 2px solid #313131;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    left: 35%;
+    bottom: 115.9rem;
+    height: 255px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    color: #e8e8e8;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.content .heading {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.content .para {
+    line-height: 1.5;
+}
+
+.content .btn {
+    color: #e8e8e8;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    background: #0974f1;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgba(98, 231, 9, 0.366);
+    border-color: #9c09f15c;
+}
+
+.content .btn:hover {
+    outline: 2px solid #e8e8e8;
+    background: transparent;
+    color: #e8e8e8;
+}
+
+.content .btn:active {
+    box-shadow: none;
+}
+
+.modal-content {
+    width: 200%;
+    height: 700px;
+    background: rgba(9, 9, 9, 0.511);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(17, 17, 17, 0.299);
+    position: relative;
+    left: -50%;
+    top: 5rem;
+}
+
+h5 {
+    color: aliceblue;
+}
+
+img{
+    padding: 50px;
+    width: 70%;
+    position: relative;
+    bottom: 5rem;
+}
+
+button{
+    color: #0974f1;
+}
+
+h5 {
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    left: 43%;
+    font-size: 30px;
+    font-family: sans-serif;
+}

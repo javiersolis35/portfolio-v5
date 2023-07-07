@@ -1,0 +1,56 @@
+.box_shadow{
+    background-color: rgba(0, 0, 0, 0.861);
+    width: 100%;
+    height: 30rem;
+    box-shadow: 80px -80px 100px 280px rgb(0, 0, 0);
+       position: relative;
+       bottom: 60rem;
+   }
+   p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    bottom: 25rem;
+    width: 50%;
+    left: 22%;
+
+   }
+
+   span{
+    color: rgb(9, 210, 255);
+   }
+
+   /* Estilos específicos para pantallas pequeñas */
+@media (max-width: 576px) {
+    div{
+        position: relative;
+        top: 45rem;
+        left: 9%;
+        text-align: center;
+    }
+        
+    }
+    
+   
+   
+   /* Estilos específicos para pantallas medianas*/
+   @media (min-width: 576px) and (max-width: 992px) {
+    div{
+        position: relative;
+        top: 45rem;
+        left: 9%;
+        text-align: center;
+    }
+   }
+   
+   /* Estilos específicos para pantallas grandes*/
+   @media (max-width: 992px) {
+    div{
+        position: relative;
+        top: 45rem;
+        left: 9%;
+        text-align: center;
+    }
+   } 
+
