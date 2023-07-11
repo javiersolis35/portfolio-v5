@@ -14,7 +14,8 @@
     border: 2px solid #313131;
     transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
     left: 5%;
-    bottom: 100rem;
+    top: 5rem;
+    background-color: #0975f116;
     
 }
 
@@ -200,4 +201,6 @@ h5 {
   overflow: hidden;
  }
 
+
+ 
  

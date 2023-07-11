@@ -1,10 +1,10 @@
 .box_shadow{
     background-color: rgba(0, 0, 0, 0.861);
     width: 100%;
-    height: 30rem;
+    height: 10rem;
     box-shadow: 80px -80px 100px 280px rgb(0, 0, 0);
        position: relative;
-       bottom: 60rem;
+       top: 30rem;
    }
    p{
     color: aliceblue;
@@ -20,37 +20,22 @@
    span{
     color: rgb(9, 210, 255);
    }
-
-   /* Estilos específicos para pantallas pequeñas */
-@media (max-width: 576px) {
-    div{
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 767px) {
+    /* Agrega aquí tus estilos para dispositivos móviles */
+  }
+  
+  /* Estilos para tabletas en modo horizontal */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Agrega aquí tus estilos para tabletas en modo horizontal */
+  }
+  
+  /* Estilos para tabletas y pantallas de escritorio */
+  @media screen and (min-width: 1024px) {
+    /* Agrega aquí tus estilos para tabletas y pantallas de escritorio */
+    p{
         position: relative;
-        top: 45rem;
-        left: 9%;
-        text-align: center;
+        bottom: 30rem;
     }
-        
-    }
-    
-   
-   
-   /* Estilos específicos para pantallas medianas*/
-   @media (min-width: 576px) and (max-width: 992px) {
-    div{
-        position: relative;
-        top: 45rem;
-        left: 9%;
-        text-align: center;
-    }
-   }
-   
-   /* Estilos específicos para pantallas grandes*/
-   @media (max-width: 992px) {
-    div{
-        position: relative;
-        top: 45rem;
-        left: 9%;
-        text-align: center;
-    }
-   } 
-
+  }
+  

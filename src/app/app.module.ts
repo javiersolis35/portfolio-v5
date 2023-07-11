@@ -13,6 +13,8 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { RedesComponent } from './components/redes/redes.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { ContactoComponent } from './components/contacto/contacto.component';
     SkillsComponent,
     ProyectoComponent,
     ExperienciaComponent,
-    ContactoComponent
+    ContactoComponent,
+    FooterComponent,
+    RedesComponent
   ],
   imports: [
     BrowserModule,
