@@ -955,3 +955,37 @@
       transform: rota(0);
     }
   }
+
+  /* Estilos para dispositivos móviles */
+@media screen and (max-width: 767px) {
+  /* Agrega aquí tus estilos para dispositivos móviles */ 
+  .card{
+      position: relative;
+      top: 9rem;
+      left: 4.5%;
+      width: 87%;
+  }
+ 
+}
+/* Ejemplo de estilos para pantallas medianas (entre 576px y 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .card{
+      position: relative;
+      top: 9rem;
+      left: 4.5%;
+      width: 70%;
+  }
+
+}
+
+/* Estilos para tabletas en modo horizontal */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Agrega aquí tus estilos para tabletas en modo horizontal */
+  .card{
+      position: relative;
+      top: 10rem;
+      left: 4.5%;
+      width: 51%;
+  }
+
+}

@@ -22,20 +22,46 @@
    }
 /* Estilos para dispositivos móviles */
 @media screen and (max-width: 767px) {
-    /* Agrega aquí tus estilos para dispositivos móviles */
+    /* Agrega aquí tus estilos para dispositivos móviles */ 
+    p{
+    
+    position: relative;
+    bottom: 38rem;
+    font-size: 23px;
+    text-align: center;
+    width: 80%;
+    left: 12%;
+   }
   }
   
   /* Estilos para tabletas en modo horizontal */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     /* Agrega aquí tus estilos para tabletas en modo horizontal */
+    p{
+    
+      position: relative;
+      bottom: 38rem;
+      font-size: 23px;
+      text-align: center;
+      width: 80%;
+      left: 12%;
+     }
+    
   }
   
   /* Estilos para tabletas y pantallas de escritorio */
-  @media screen and (min-width: 1024px) {
+  /* @media screen and (min-width: 1024px) { */
     /* Agrega aquí tus estilos para tabletas y pantallas de escritorio */
-    p{
-        position: relative;
-        bottom: 30rem;
-    }
-  }
+    /* p{
+    
+      position: relative;
+      bottom: 38rem;
+      font-size: 23px;
+      text-align: center;
+      width: 80%;
+      left: 12%;
+     }
+    
+  
+  } */
   

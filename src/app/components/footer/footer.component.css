@@ -90,36 +90,6 @@ border: 1px solid rgba(144,100,186,0.125);
   }
 
 
-/* Estilos específicos para pantallas pequeñas */
-@media (max-width: 576px) {
- 
-  button{
-    position: relative;
-    bottom: 1.5rem;
-    width: 20%;
-  }
- h4{
-    display: none;
- }
-
-}
-
-/* Estilos específicos para pantallas medianas*/
-@media (min-width: 576px) and (max-width: 992px) {
-
-  button{
-    position: relative;
-    bottom: 1.5rem;
-  }
-}
-
-/* Estilos específicos para pantallas grandes*/
-@media (min-width: 992px) {
- 
-  h4{
-    width: 40%;
-  }
-} 
 
 .footer{
     position: absolute;
@@ -134,3 +104,67 @@ border: 1px solid rgba(144,100,186,0.125);
     
     left: 30%;
   }
+
+
+  /* Estilos para dispositivos móviles */
+@media screen and (max-width: 767px) {
+  /* Agrega aquí tus estilos para dispositivos móviles */ 
+ footer{
+ 
+  position: relative;
+  top: 200rem;
+  
+ }
+ h4{
+ display: none;
+ }
+ p{
+  font-size: 15px;
+  width: 60%;
+  position: relative;
+  left: 40%;
+  top: 0.5rem;
+ }
+ 
+}
+/* Ejemplo de estilos para pantallas medianas (entre 576px y 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+  footer{
+ 
+    position: relative;
+    top: 183rem;
+    
+   }
+   h4{
+   display: none;
+   }
+   p{
+    font-size: 15px;
+    width: 60%;
+    position: relative;
+    left: 40%;
+    top: 0.5rem;
+   }
+}
+
+/* Estilos para tabletas en modo horizontal */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  footer{
+ 
+    position: relative;
+    top: 200rem;
+    
+   }
+   h4{
+   display: none;
+   }
+   p{
+    font-size: 15px;
+    width: 60%;
+    position: relative;
+    left: 40%;
+    top: 0.5rem;
+   }
+
+}

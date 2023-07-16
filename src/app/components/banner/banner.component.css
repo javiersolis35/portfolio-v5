@@ -162,7 +162,7 @@ h3 {
   display: block;
   transform-style: preserve-3d;
   transform: rotateX(-20deg);
-  bottom: 1rem;
+  bottom: 5rem;
   left: 40%;
  
 }
@@ -236,47 +236,80 @@ h3 {
 
 /* estilo responsive  */
 
-/* Estilos para dispositivos móviles */
-@media screen and (max-width: 767px) {
-  /* Agrega aquí tus estilos para dispositivos móviles */
-  h1{
-    position: relative;
-    right: -30%;
-  }
+/* Ejemplo de estilos para pantallas más grandes (mayor a 768px) */
+@media (min-width: 768px) {
+  /* Estilos específicos para pantallas más grandes */
+  
+
 }
 
-/* Estilos para tabletas en modo horizontal */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* Agrega aquí tus estilos para tabletas en modo horizontal */
-  h1{
-    position: relative;
-    right: -30%;
-  }
+/* Ejemplo de estilos para pantallas medianas (entre 576px y 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* Estilos específicos para pantallas medianas */
+   h1{
+  font-size: 35px;
+  
+  height: 40px;
+  position: relative;
+  left: -35%;
+  bottom: 5rem;
+ }
+ p{
+  font-size: 35px;
+  position: relative;
+  left: 87%;
+  top: -2.6rem;
+
+ }
+ h3{
+ 
+  height: 32px;
+  position: relative;
+  top: -4rem;
+  left: -10%;
+ }
+
+ span{
+ 
+  position: relative;
+  left: 75%;
+  top: -2.1rem;
+ }
+
+
 }
 
-/* Estilos para tabletas y pantallas de escritorio */
-@media screen and (min-width: 1024px) {
-  /* Agrega aquí tus estilos para tabletas y pantallas de escritorio */
-  h1{
-    position: relative;
-    left: -30%;
-    
-  }
-  p{
-    position: relative;
-    left: 53%;
-  }
-  .titulo_sec{
-    position: relative;
-    left: 26%;
-  }
-  h3{
-    position: relative;
-    left: 8%;
-  }
-  .wrapper{
-    position: relative;
-    bottom: 3rem;
-    left: -15%;
-  }
+/* Ejemplo de estilos para pantallas pequeñas (menor a 576px) */
+@media (max-width: 575px) {
+  /* Estilos específicos para pantallas pequeñas */
+ h1{
+  font-size: 35px;
+  
+  height: 40px;
+  position: relative;
+  left: -45%;
+  bottom: 5rem;
+ }
+ p{
+  font-size: 35px;
+  position: relative;
+  left: 105%;
+  top: -2.6rem;
+
+ }
+ h3{
+ 
+  height: 32px;
+  position: relative;
+  top: -4rem;
+  left: -15%;
+ }
+
+ span{
+ 
+  position: relative;
+  left: 85%;
+  top: -2.1rem;
+ }
+
 }

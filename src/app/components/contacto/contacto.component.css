@@ -119,4 +119,81 @@
     position: relative;
     top: 5rem;
   }
+
+  /* Estilos para dispositivos móviles */
+@media screen and (max-width: 767px) {
+  /* Agrega aquí tus estilos para dispositivos móviles */ 
+  .form-container{
+    background-color: #40c9ff;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    top: 23rem;
+  }
+
+  #contacto{
+    position: relative;
+    left: 12%;
+  }
+  h1{
+    position: relative;
+   
+    width: 40%;
+    top: -7rem;
+    left: 30%;
+
+  }
+ 
+ 
+}
+/* Ejemplo de estilos para pantallas medianas (entre 576px y 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .form-container{
+    background-color: #40c9ff;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    top: 23rem;
+  }
+
+  #contacto{
+    position: relative;
+    left: 12%;
+  }
+  h1{
+    position: relative;
+   
+    width: 40%;
+    top: -7rem;
+    left: 30%;
+
+  }  
+
+}
+
+/* Estilos para tabletas en modo horizontal */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Agrega aquí tus estilos para tabletas en modo horizontal */
+  .form-container{
+    background-color: #40c9ff;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    top: 23rem;
+  }
+
+  #contacto{
+    position: relative;
+    left: 12%;
+  }
+  h1{
+    position: relative;
+   
+    width: 40%;
+    top: -7rem;
+    left: 30%;
+
+  }
+
+}
  

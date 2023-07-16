@@ -53,53 +53,82 @@ p{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 
-/* Estilos específicos para pantallas pequeñas */
-@media (max-width: 576px) {
-  #skills_sect{
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 767px) {
+  /* Agrega aquí tus estilos para dispositivos móviles */ 
+  .card{
+   
     position: relative;
-    top: 113rem;
+    top: 15rem;
+    left: -17%;
+    
   }
-  p{
+  .titulo_skills{
+   
     position: relative;
-    left: 12%;
+    width: 100%;
+    text-align: center;
+    left: -1%;
+    top: 14rem;
   }
   .sub_titu{
-      position: relative;
-      left: -20%;
-    }
+    text-align: center;
+    position: relative;
+    left: 18%;
+    font-size: 20px;
+  }
+ 
+}
+/* Ejemplo de estilos para pantallas medianas (entre 576px y 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .card{
+   
+    position: relative;
+    top: 15rem;
+    left: 7%;
+  }
+  .titulo_skills{
+   
+    position: relative;
+    width: 100%;
+    text-align: center;
+    left: -1%;
+    top: 14rem;
+  }
+  .sub_titu{
+    text-align: center;
+    position: relative;
+    left: 18%;
+    font-size: 20px;
+  }
+
 }
 
-/* Estilos específicos para pantallas medianas*/
-@media (min-width: 576px) and (max-width: 992px) {
-  #skills_sect{
+/* Estilos para tabletas en modo horizontal */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Agrega aquí tus estilos para tabletas en modo horizontal */
+  .card{
+   
     position: relative;
-    top: 113rem;
+    top: 15rem;
+    left: 7%;
   }
-  p{
+  .titulo_skills{
+   
     position: relative;
-    left: 12%;
+    width: 100%;
+    text-align: center;
+    left: -1%;
+    top: 14rem;
   }
   .sub_titu{
+    text-align: center;
     position: relative;
-    left: -20%;
+    left: 18%;
+    font-size: 20px;
   }
-}
 
-/* Estilos específicos para pantallas grandes*/
-@media (max-width: 992px) {
-  #skills_sect{
-    position: relative;
-    top: 113rem;
-  }
-  p{
-    position: relative;
-    left: 12%;
-  }
-  .sub_titu{
-    position: relative;
-    left: -20%;
-  }
-} 
+}
 
 #skills_sect{
   position: relative;
@@ -123,3 +152,23 @@ span{
   color: aqua;
 }
 
+ .card{
+   
+    position: relative;
+    
+    left: 17%;
+  }
+  .titulo_skills{
+   
+    position: relative;
+    width: 100%;
+    text-align: center;
+    left: -1%;
+    
+  }
+  .sub_titu{
+    text-align: center;
+    position: relative;
+    left: 18%;
+    font-size: 20px;
+  }

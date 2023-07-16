@@ -103,63 +103,100 @@ backdrop-filter: blur(1px);
 border: 1px solid rgba(144,100,186,0.125);
   }
 
-/* Estilos para todas las pantallas
-.Hero {
-  margin-top: 20px;
-  padding: 20px;
-  color: #fff;
-}*/
+ /* Estilo resposive del header general */
+  
+    /* Ejemplo de estilos para pantallas más grandes (mayor a 768px) */
+    @media (min-width: 768px) {
+      /* Estilos específicos para pantallas más grandes */
+      /* estilo de del div para header */
+    
 
-/* Estilos específicos para pantallas pequeñas */
-@media (max-width: 576px) {
- /*  .Hero {
-      margin-top: 10px;
-      padding: 10px;
-  } */
-  button{
-    position: relative;
-    bottom: 1.5rem;
-    width: 20%;
-  }
- h4{
-    display: none;
- }
- ul{
-    position: relative;
-    top: 1rem;
-    left: -20%;
- }
- 
-}
+      /* Estilo del h4"titulo del portfolio parte superior del header" */
+      h4{
+       width: 40%;
+       position: relative;
+       left: 3%;
+       top: 25px;
 
-/* Estilos específicos para pantallas medianas*/
-@media (min-width: 576px) and (max-width: 992px) {
- /*  .Hero {
-      margin-top: 30px;
-      padding: 30px;
-  } */
-  h4{
-    display: none;
-  }
-  ul{
-    position: relative;
-    top: 1rem;
-    left: -20%;
-  }
-  button{
-    position: relative;
-    bottom: 1.5rem;
-  }
-}
+      }
 
-/* Estilos específicos para pantallas grandes*/
-@media (min-width: 992px) {
- /*  .Hero {
-      margin-top: 40px;
-      padding: 40px;
-  } */
-  h4{
-    width: 40%;
-  }
-} 
+      /* estilo de la lista de inicio y contacto */
+      ul{
+        position: relative;
+        left: -4%;
+        bottom: 1rem;
+      }
 
+      /* Estilo del boton de mi curriculum */
+    button {
+        position: relative;
+        bottom:2 rem;
+        left: 75%;
+    }
+
+    }
+  
+    /* Ejemplo de estilos para pantallas medianas (entre 576px y 767px) */
+    @media (min-width: 576px) and (max-width: 767px) {
+      /* Estilos específicos para pantallas medianas */
+        /* estilo de del div para header */
+      
+
+      /* Estilo del h4"titulo del portfolio parte superior del header" */
+      h4{
+       width: 40%;
+       position: relative;
+       left: 3%;
+       top: 25px;
+
+      }
+
+      /* estilo de la lista de inicio y contacto */
+      ul{
+        position: relative;
+        left: 5%;
+        bottom: 1rem;
+      }
+
+      /* Estilo del boton de mi curriculum */
+    button {
+        position: relative;
+        bottom:2 rem;
+        left: 75%;
+    }
+
+
+    }
+  
+    /* Ejemplo de estilos para pantallas pequeñas (menor a 576px) */
+    @media (max-width: 575px) {
+      /* Estilos específicos para pantallas pequeñas */
+      
+      /* estilo de del div para header */
+      .card-shadow{
+        width: 100%;
+        
+    
+      }
+      
+      /* Estilo del h4"titulo del portfolio parte superior del header" */
+      h4{
+        display: none;
+      }
+
+      /* estilo de la lista de inicio y contacto */
+      ul{
+        position: relative;
+        left: -25%;
+        bottom: -1rem;
+      }
+
+      /* Estilo del boton de mi curriculum */
+    button {
+        position: relative;
+        bottom: 1.5rem;
+        left: 55%;
+    }
+
+    }
+  
