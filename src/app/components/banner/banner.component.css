@@ -283,33 +283,35 @@ h3 {
 @media (max-width: 575px) {
   /* Estilos específicos para pantallas pequeñas */
  h1{
-  font-size: 35px;
-  
+  font-size: 25px;
+
   height: 40px;
   position: relative;
   left: -45%;
-  bottom: 5rem;
+  bottom: 8rem;
  }
  p{
-  font-size: 35px;
+  
+  font-size: 25px;
   position: relative;
   left: 105%;
-  top: -2.6rem;
+  top: -1.9rem;
 
  }
  h3{
  
   height: 32px;
   position: relative;
-  top: -4rem;
-  left: -15%;
+  top: -8rem;
+  left: 25%;
  }
 
  span{
  
   position: relative;
-  left: 85%;
-  top: -2.1rem;
+  left: 0%;
+  top: 1rem;
+
  }
 
 }
