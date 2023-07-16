@@ -61,6 +61,35 @@ p{
     position: relative;
     top: 15rem;
     left: -17%;
+    width: 30%;
+    height: 30%;
+    
+  }
+  
+  .titulo_skills{
+   
+    position: relative;
+    width: 100%;
+    text-align: center;
+    left: -1%;
+    top: 14rem;
+  }
+  .sub_titu{
+    
+    position: relative;
+    right: 50%;
+    font-size: 20px;
+    width: 70%;
+ 
+  }
+
+}
+/* Ejemplo de estilos para pantallas medianas (entre 576px y 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .card{
+   position: relative;
+    top: 15rem;
+    left: 7%;
     
   }
   .titulo_skills{
@@ -77,30 +106,8 @@ p{
     left: 18%;
     font-size: 20px;
   }
+
  
-}
-/* Ejemplo de estilos para pantallas medianas (entre 576px y 767px) */
-@media (min-width: 576px) and (max-width: 767px) {
-  .card{
-   
-    position: relative;
-    top: 15rem;
-    left: 7%;
-  }
-  .titulo_skills{
-   
-    position: relative;
-    width: 100%;
-    text-align: center;
-    left: -1%;
-    top: 14rem;
-  }
-  .sub_titu{
-    text-align: center;
-    position: relative;
-    left: 18%;
-    font-size: 20px;
-  }
 
 }
 

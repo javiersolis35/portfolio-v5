@@ -204,3 +204,10 @@ h5 {
 
  
  
+ /* Estilos para dispositivos móviles */
+/* @media screen and (max-width: 767px) {
+  #myModal2{
+    width: 50%;
+    height: 50%;
+  }
+} */
